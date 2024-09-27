@@ -1,24 +1,47 @@
-# weahter-app
+# weather-app
 
-## Project setup
-```
-npm install
-```
+## Overview
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+The Weather App is a simple web application built with Laravel that provides users with real-time weather information based on their location.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Features
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Search for weather by city name
+- Display current temperature, humidity, and wind speed
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Tech Stack
+
+- **Frontend:** Vuejs
+- **API:** Laravel api: https://github.com/crsdngnn/weather-app-api
+
+## Installation
+
+### Prerequisites
+
+- Node.js (>= 14.x)
+- npm or yarn
+
+### Steps
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/weather-app.git
+   cd weather-app
+   
+2. **Create .env file:**
+
+   ```bash
+   touch .env
+
+3. **Add api url for backend in the .env file:**
+   ```bash
+   VUE_APP_API_URL='http://localhost:8000/api'
+
+4. **Install dependencies**
+   ```bash
+   npm install
+
+5. **Install dependencies**
+   ```bash
+   npm run serve
