@@ -1,0 +1,99 @@
+.weather-app {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.weather-app.clear {
+    background-color: #81c784;
+    /* Light Green */
+    color: #3e2723;
+}
+
+.weather-app.cloudy {
+    background-color: #90a4ae;
+    /* Light Gray */
+    color: #263238;
+}
+
+.weather-app.rain {
+    background-color: #64b5f6;
+    /* Light Blue */
+    color: #0d47a1;
+}
+
+.weather-app.default {
+    background-color: #e0e0e0;
+    /* Default Gray */
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    width: calc(100% - 24px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:disabled {
+    background-color: #b0bec5;
+    /* Disabled color */
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    transform: scale(1.05);
+}
+
+.loading {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #007bff;
+    /* Loading color */
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.temperature {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.condition {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
