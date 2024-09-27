@@ -26,7 +26,7 @@ The Weather App is a simple web application built with Laravel that provides use
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/crsdngnn/weather-app.git
    cd weather-app
    
 2. **Create .env file:**
