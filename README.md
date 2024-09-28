@@ -15,10 +15,10 @@ The Weather App is a simple web application built with Laravel that provides use
 - **API:** Laravel api: https://github.com/crsdngnn/weather-app-api
 - 
 ## Screenshot
-![Screenshot view](assets/screenshots/view-screenshot.png)
-![Web view](assets/screenshots/web-screenshot.png)
-![Mobile view](assets/screenshots/mobile-screenshot.png)
-![Error view](assets/screenshots/error-screenshot.png)
+![Screenshot view](src/assets/screenshots/view-screenshot.png)
+![Web view](src/assets/screenshots/web-screenshot.png)
+![Mobile view](src/assets/screenshots/mobile-screenshot.png)
+![Error view](src/assets/screenshots/error-screenshot.png)
 
 ## Installation
 
